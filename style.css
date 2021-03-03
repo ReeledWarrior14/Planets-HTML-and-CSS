@@ -1,0 +1,85 @@
+h1{
+  color: rgb(0, 81, 255);
+  text-align: center;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #48464d;
+}
+.class1{
+  background-color: rgb(66, 83, 75);
+  /* align-items: center; */
+  /* justify-content: center; */
+  display: grid;
+  /* position: relative; */
+}
+/* img{
+  position: relative;
+  top: 50%;
+  left: 25%;
+} */
+a:link{
+  color: rgb(200, 0, 150);
+}
+a:visited{
+  color: rgb(0, 255, 225);
+}
+.clockidk{
+  /* border: 5px solid purple; */
+  margin-left: 10px;
+  /* padding: 5px; */
+}
+
+.mini1 p{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+  opacity: 0;
+}
+.mini1:hover p{
+  opacity: 1;
+}
+.mini1:hover img{
+  opacity: 0.25;
+}
+.mini1{
+  position: relative;
+}
+
+.MercuryVenus{
+  display: flex;
+  justify-content: space-evenly;
+}
+.MercuryVenus p{
+  text-align: center;
+  color: rgb(60, 255, 0);
+}
+
+.EarthMars{
+  display: flex;
+  justify-content: space-evenly;
+}
+.EarthMars p{
+  text-align: center;
+  color: rgb(60, 255, 0);
+}
+
+.JupiterSaturn{
+  display: flex;
+  justify-content: space-evenly;
+}
+.JupiterSaturn p{
+  text-align: center;
+  color: rgb(60, 255, 0);
+}
+
+.UranusNeptune{
+  display: flex;
+  justify-content: space-evenly;
+}
+.UranusNeptune p{
+  text-align: center;
+  color: rgb(60, 255, 0);
+}
